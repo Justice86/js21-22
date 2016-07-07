@@ -1,0 +1,51 @@
+.wrapper {
+  margin: 0 auto;
+  width: 50%; }
+  .wrapper h1 {
+    margin: 10px 0;
+    text-align: center; }
+  .wrapper form p {
+    padding-bottom: 10px;
+    font-size: 20px; }
+  .wrapper form ul {
+    list-style: none; }
+    .wrapper form ul li {
+      padding-bottom: 10px; }
+      .wrapper form ul li label input {
+        margin-left: 20px; }
+  .wrapper form button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-weight: bold; }
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 300px;
+  margin: -150px 0 0 -250px;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #bbb, 0 0 10px #bbb; }
+  .modal p {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-style: italic; }
+  .modal .correct {
+    background: rgba(125, 199, 130, 0.3); }
+  .modal .incorrect {
+    background: rgba(219, 93, 93, 0.3); }
+  .modal button {
+    margin: 70px auto 0;
+    border: 0;
+    background: #9689b8;
+    color: #fff;
+    font-size: 12px; }
